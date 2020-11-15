@@ -46,11 +46,17 @@
         color: inherit;
         text-decoration: underline;
       }
+
+      @media (hover: none) {
+        .hidemobile {
+          display: none;
+        }
+      }
     </style>
   </head>
   <body>
     <canvas id="canvas"></canvas>
-    <div class="controls">WASD: move; arrow keys: pan; <a target="_blank" href="https://github.com/freedmand/infiniteterrain">source</a></div>
+    <div class="controls"><span class="hidemobile">WASD: move; arrow keys: pan; </span><a target="_blank" href="https://github.com/freedmand/infiniteterrain">source</a></div>
     <script src="assets/js/bundle.js"></script>
   </body>
 </html>
