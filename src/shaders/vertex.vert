@@ -6,9 +6,7 @@ uniform mat4 uRotationMatrixX;
 uniform mat4 uRotationMatrixY;
 uniform vec2 uPosition;
 uniform float uVertexSpacing;
-// uniform float uGridSize;
 
-varying vec4 vertexPos;
 varying float vNoise;
 
 const int octaves = 5;
@@ -62,10 +60,9 @@ float onoise(vec2 v) {
 }
 
 void main() {
-  vertexPos = aVertexPosition;
   vec2 offsetMod = mod(uPosition + 0.5 * uVertexSpacing, uVertexSpacing) - 0.5 * uVertexSpacing;
-  vec2 newVPos = vertexPos.xz - offsetMod;
-  vNoise = onoise(vertexPos.xz + uPosition - offsetMod);
+  vec2 newVPos = aVertexPosition.xz - offsetMod;
+  vNoise = onoise(aVertexPosition.xz + uPosition - offsetMod);
   float pNoise = onoise(uPosition);
   vec4 vPos = vec4(newVPos.x, vNoise, newVPos.y, aVertexPosition.w);
   vec4 finalPos = vec4(vPos.x, vPos.y - pNoise, vPos.z, vPos.w);

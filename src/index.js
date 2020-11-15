@@ -74,7 +74,7 @@ class TrailRunning {
   constructor() {
     this.canvas = document.getElementById('canvas');
     this.favicon = document.querySelector('link[rel="icon"]');
-    this.faviconCounter = FAVICON_UPDATE_INTERVAL;
+    this.faviconCounter = 0;
 
     this.gl = this.canvas.getContext('webgl');
     if (!this.gl) {

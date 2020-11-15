@@ -1,22 +1,16 @@
 {
-  "name": "webgl-starter",
-  "version": "1.0.0",
-  "description": "Simple starter project to start developing with WebGL easily. With Webpack, ES6 transpiling and page reloading.",
+  "name": "infiniteterrain",
+  "version": "0.0.1",
+  "description": "Minimal explorable infinite terrain in WebGL",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oliverbenns/webgl-starter.git"
+    "url": "git+https://github.com/freedmand/infiniteterrain.git"
   },
   "author": {
-    "name": "Oliver Benns",
-    "email": "info@oliverbenns.com",
-    "url": "https://oliverbenns.com"
+    "name": "Dylan Freedman"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/oliverbenns/webgl-starter/issues"
-  },
-  "homepage": "https://github.com/oliverbenns/webgl-starter#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",

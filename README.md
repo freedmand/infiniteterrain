@@ -18,6 +18,7 @@ This is a Node.js project. Ensure you have Node installed on your system (can be
 
 - Webpack template adapted from [github.com/oliverbenns/webgl-starter](https://github.com/oliverbenns/webgl-starter)
 - Some of the code inspired by [github.com/evanw/lightgl.js/](https://github.com/evanw/lightgl.js/)
+- Matrix functions adapted from http://glmatrix.net/docs/module-mat4.html
 - Noise functions adapted from [gist.github.com/patriciogonzalezvivo/670c22f3966e662d2f83](https://gist.github.com/patriciogonzalezvivo/670c22f3966e662d2f83) and [observablehq.com/@mbostock/perlin-noise/2](https://observablehq.com/@mbostock/perlin-noise/2).
 
 ## License

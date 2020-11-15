@@ -1,6 +1,5 @@
 precision mediump float;
 
-varying vec4 vertexPos;
 varying float vNoise;
 
 void main() {
