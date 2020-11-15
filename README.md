@@ -1,6 +1,6 @@
 # Infinite Terrain WebGL
 
-Minimal WebGL infinite terrain. On computers, use WASD to move and arrows to look around. On phone, touch screen to move.
+Minimal WebGL infinite terrain. Demo site [here](https://infiniteterrain.netlify.app/). On computers, use WASD to move and arrows to look around. On phone, touch screen to move.
 
 ## Install
 This is a Node.js project. Ensure you have Node installed on your system (can be downloaded [here](https://nodejs.org/en/)). Clone this repo and `cd` into the main directory and run:
