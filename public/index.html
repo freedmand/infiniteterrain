@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>WebGL Starter</title>
+    <title>Infinite Terrain</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="assets/img/favicon.png">
@@ -10,16 +10,42 @@
         background: #111;
         overflow: hidden;
         margin: 0;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        outline: none;
+        -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
       }
 
       canvas {
         width: 100vw;
         height: 100vh;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        outline: none;
+        -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+      }
+
+      .controls {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: white;
+        padding: 5px 8px;
+        font-family: sans-serif;
       }
     </style>
   </head>
   <body>
-    <canvas id="canvas"></div>
+    <canvas id="canvas"></canvas>
+    <div class="controls">WASD: move; arrow keys: pan</div>
     <script src="assets/js/bundle.js"></script>
   </body>
 </html>

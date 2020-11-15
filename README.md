@@ -1,22 +1,24 @@
-# WebGL Starter
+# Infinite Terrain WebGL
 
-![WebGL Logo](./logo.png)
-
-Simple starter project to start developing with WebGL easily. With Webpack, ES6 transpiling and page reloading.
+Minimal WebGL infinite terrain. On computers, use WASD to move and arrows to look around. On phone, touch screen to move.
 
 ## Install
-- Get the files by either:
-  - Forking this repository
-  - Downloading a [zip/tar.gz](https://github.com/oliverbenns/webgl-starter/releases)
-  - Cloning this repository with `git clone https://github.com/oliverbenns/webgl-starter.git`
-- `cd webgl-starter`
-- `nvm install`
+This is a Node.js project. Ensure you have Node installed on your system (can be downloaded [here](https://nodejs.org/en/)). Clone this repo and `cd` into the main directory and run:
 - `npm install`
 
 ## Development
-- `npm run develop`
+- `npm run dev`
 - Open `http://localhost:8080`
 
 ## Build
 - `npm run build`
 - Javascript bundle will be in `/public/assets/bundle.js`
+
+## Credits
+
+- Webpack template adapted from [github.com/oliverbenns/webgl-starter](https://github.com/oliverbenns/webgl-starter)
+- Some of the code inspired by [github.com/evanw/lightgl.js/](https://github.com/evanw/lightgl.js/)
+- Noise functions adapted from [gist.github.com/patriciogonzalezvivo/670c22f3966e662d2f83](https://gist.github.com/patriciogonzalezvivo/670c22f3966e662d2f83) and [observablehq.com/@mbostock/perlin-noise/2](https://observablehq.com/@mbostock/perlin-noise/2).
+
+## License
+[MIT](https://opensource.org/licenses/MIT)

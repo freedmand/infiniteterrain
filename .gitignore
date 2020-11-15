@@ -1,3 +1,7 @@
 *.log
+.DS_Store
 node_modules
 public/assets/js
+
+# Local Netlify folder
+.netlify

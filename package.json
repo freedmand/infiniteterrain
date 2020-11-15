@@ -28,7 +28,7 @@
     "webpack-dev-server": "^3.1.1"
   },
   "scripts": {
-    "develop": "webpack-dev-server --hot --inline --mode development",
+    "dev": "webpack-dev-server --hot --inline --mode development",
     "build": "webpack --mode production"
   }
 }
